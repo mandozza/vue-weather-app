@@ -8,11 +8,9 @@
       <input type="text" class="search-bar" v-model="search" @keyup.enter="getWeather" placeholder="Enter a City!">
     </div>
     <div v-if="messaging">{{messaging}}</div>
-    <div v-if="temp">
-      <div class="weather-results">
+    <div class="weather-results" v-if="temp">
         <div class="city"> {{ this.city }} </div>
         <div class="temp">{{ temp }}</div>
-      </div>
     </div>
   </main>
 </div>
