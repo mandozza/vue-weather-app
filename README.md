@@ -1,4 +1,5 @@
 # veatherly
+a simple ue weather app using the OpenWeather api.
 
 ## Project setup
 ```
